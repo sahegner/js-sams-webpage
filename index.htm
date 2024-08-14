@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
     <link rel="stylesheet" href="style.css">
+	<script src="site.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,18 +13,21 @@
     </header>
 
     <nav>
-        <a href="#" id="home" class="active">Home</a>
-        <a href="#" id="about">About</a>
-        <a href="#" id="contact">Contact</a>
+		<div>
+			<a href="#" id="home" class="active">Home</a>
+			<a href="#" id="about">About</a>
+			<a href="#" id="contact">Contact</a>
+		</div>
     </nav>
 
     <section>
-        <h2 class="active">Main Content Section</h2>
-        <p>This is some content...</p>
+		<h2 class="active">Main Content Section</h2>
+		<p>This is some content...</p>
+		<span>Blah</span>
     </section>
 
     <footer>
-        <div><p><a href="">Fork this project on GitHub.</p></a></div>
+        <div><p><a id="fork" href="https://github.com/fvtc/js-ryans-webpage">Fork this project on GitHub.</a></p></div>
 
         <p><span>&copy;</span> 2024 Ryan's webpage. All rights reserved.</p>
     </footer>
