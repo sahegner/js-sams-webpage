@@ -26,12 +26,12 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
-    transition: color 0.3s ease; /* Adding transition effect */
+    transition: color 0.3s ease;
 	padding: 10px;
 }
 
 nav a:hover {
-	color: #61bb8e; /* Change color on hover (you can use any color you prefer) */
+	color: #61bb8e;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -51,12 +51,12 @@ footer {
 footer a {
 	color: #fff;
 	text-decoration: none;
-	transition: color 0.3s ease; /* Adding transition effect */
+	transition: color 0.3s ease;
 	padding: 10px;
 	border-radius: 5px;
 }
 
 footer a:hover {
-	color: #61bb8e; /* Change color on hover (you can use any color you prefer) */
+	color: #61bb8e;
 	background-color: rgba(0, 0, 0, 0.5);
 }
